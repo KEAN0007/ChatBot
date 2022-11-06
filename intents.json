@@ -1,0 +1,55 @@
+{"intents":[
+    {"tag":"greetings",
+    "patterns":["hello","hey","hi","yo","good day","Greetings","what's up"],
+    "responses":["Hello!","Hey!","What can I do for you?"]},
+
+    {"tag":"goodbye",
+    "patterns":["bye","goodbye","see you","i am leaving","cao","cya","see you later"],
+    "responses":["Bye!","Sad to see you go :(","GoodBye!"]},
+
+    {"tag":"age",
+    "patterns":["how old are you","whats your age","age?"],
+    "responses":["I am 18 years old","18 Years!"]},
+
+    {"tag":"name",
+    "patterns":["name?","whats your name","what should i call you","who are you?","tell me your name"],
+    "responses":["My name is Brendan Keane","I'm Brendan","I'm Brendan your host"]},
+
+    {"tag":"hours",
+    "patterns":["when are you open?","hours?","when do you open","when do you close"],
+    "responses":["Sun-Wed(11am to 8:30), Thu-Sat(11am to 12am)"]},
+    
+    {"tag":"Happy hour",
+    "patterns":["whens happy hour","happy hour?","do you have happy hour"],
+    "responses":["Happy hour is Mon-Thu from 2am to 5pm","Mon-Thu from 2am-5pm"]},
+
+    {"tag":"Menu",
+    "patterns":["what do you have","what do you have here","food?","what do you sell"],
+    "responses":["we have:(Mains)(Sandwiches)(Soups & Salads)(Starters)(Kids)(Dogs)(Extras)"]},
+
+    {"tag":"Mains",
+    "patterns":["Mains?","what are your mains","what are the mains"],
+    "responses":[]},
+
+    {"tag":"Sandwiches",
+    "patterns":["Sandwiches","what Sandwiches do you have","sandwich","do you have Sandwiches"],
+    "responses":["Our Sandwiches are:\nThe Tavern Burger\nBratwurst\nVeggie Burger\nGrilled Salmon BLT\nBroccoli Melt\nThe Tavern Club\nFried Chicken Sandwich"]},
+
+    {"tag":"Salads",
+    "patterns":["salad?","what salads do you have","do you have salads"],
+    "responses":["Our salads are:\nLocal Greens\nRoman Caesar\nGreen Goddess Salad\nGrains, Beet & things\nWedge Salad\nAll Salads can add Chicken, grilled Prawns, Salmon, Bacon, and Avocado"]},
+   
+    {"tag":"Starters",
+    "patterns":["starters","what starters do you have","what are the starters", "do you have starters"],
+    "responses":["Our starters are:\nmeditranean board\nBavarian Pretzel\nHouse Marinated Olives\nCheese & Charcuterie Board\nCrispy Brussel Sprouts\n Chicken Wings\nPull-Apart Garlic Cheesey Bread\nChicken Strips"]},
+
+    {"tag":"Kids",
+    "patterns":["what can the kids eat","kids","what kids meals do you have","what are the kids meals"],
+    "responses":["Burger\nCheeseburger\nChicken Strips(3)\nMac & Cheese\nPlain Pasta"]},
+
+    {"tag":"dogs",
+    "patterns":["dogs","what can the dogs eat","what do you have for dogs"],
+    "responses":["We have:\nPup Burger\nPup Chicken\nPup Sausage\nPuppachino"]}
+    
+
+]}
